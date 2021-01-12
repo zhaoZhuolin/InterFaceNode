@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        #contain>div {
+            display: flex;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="contain">
+        <div>
+            <label>用户名</label>
+            <input type="text" v-model="userName">
+        </div>
+        <div>
+            <label>密码</label>
+            <input type="password" v-model="password">
+        </div>
+        <div id="yzm" ref="tet">
+            <label>验证码</label>:
+            <input type="text" v-model="yzm">
+        </div>
+        <div id="yzmCode">
+        </div>
+        <button @click="updateCode">点击刷新验证码</button>
+        <button @click="login">点击登录</button>
+    </div>
+</body>
+<script src="./Thirdparty/vue.js"></script>
+<script src="./Thirdparty/axios.0.20.0.min.js"></script>
+<script src="./Thirdparty/jquery.min.js"></script>
+<script>
+    new Vue({
+        el: "#contain",
+        data() {
+            return {
+                userName: null,
+                password: null,
+                yzm: null,
+            }
+        },
+        created() {
+            this.updateCode();
+        },
+        methods: {
+            updateCode() {
+                axios("http://localhost:8888/users/captche").then((res) => {
+                    $("#yzmCode").html(res.data);
+                }).catch((error) => {
+                    console.log(error);
+                })
+            },
+            login() {
+                console.log(this.userName);
+                console.log(this.password);
+                console.log(this.yzm);
+            }
+        },
+    })
+</script>
+
+</html>
