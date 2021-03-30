@@ -35,14 +35,12 @@ log4js.addLayout('json', function (config) {
         return JSON.stringify(logEvent) + config.separator;
     }
 });
-
+var dateString = new Date().toISOString().split('T')[0];
 log4js.configure({
     appenders: {
         logfile: {
             type: 'dateFile',
-            filename: __dirname + '/logs/games/',
-            pattern: "yyyy-MM-dd.log",
-            alwaysIncludePattern: true,
+            filename: './Log/' + dateString + '.log',
             maxLogSize: 102400000,
             backups: 100,
             keepFileExt: true
@@ -59,7 +57,7 @@ log4js.configure({
     }
 });
 
-const logger = log4js.getLogger('games');
+const logger = log4js.getLogger(' ');
 app.use(log4js.connectLogger(logger));
 
 

@@ -17,15 +17,15 @@
     <div id="contain">
         <div>
             <label>用户名</label>
-            <input type="text" v-model="userName">
+            <input type="text" v-model="userInfo.userName">
         </div>
         <div>
             <label>密码</label>
-            <input type="password" v-model="password">
+            <input type="password" v-model="userInfo.password">
         </div>
         <div id="yzm" ref="tet">
             <label>验证码</label>:
-            <input type="text" v-model="yzm">
+            <input type="text" v-model="userInfo.captcha">
         </div>
         <div id="yzmCode">
         </div>
@@ -41,9 +41,17 @@
         el: "#contain",
         data() {
             return {
-                userName: null,
-                password: null,
-                yzm: null,
+                userInfo: {
+                    userName: null,
+                    password: null,
+                    captcha: null,
+                },
+                PORT: "http://localhost:8888",
+                API: {
+                    captche: "/users/captche",
+                    login: "/users/login",
+                    register: "/users/register",
+                }
             }
         },
         created() {
@@ -51,16 +59,16 @@
         },
         methods: {
             updateCode() {
-                axios("http://localhost:8888/users/captche").then((res) => {
+                axios(this.PORT + this.API.captche).then((res) => {
                     $("#yzmCode").html(res.data);
                 }).catch((error) => {
                     console.log(error);
                 })
             },
             login() {
-                console.log(this.userName);
-                console.log(this.password);
-                console.log(this.yzm);
+                axios.post(this.PORT + this.API.register, this.userInfo).then((res) => {
+                    alert(res.data.msg);
+                })
             }
         },
     })

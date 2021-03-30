@@ -1,6 +1,6 @@
 const defined = require("../tool/defined");
 const defaultValue = require("../tool/defaultValue");
-const ColumnType = require("../db/schema/column/ColumnType");
+const ColumnType = require("../db/columnType");
 
 /***
  * @param {Object} options

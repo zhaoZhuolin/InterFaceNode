@@ -1,0 +1,111 @@
+[2021-03-30T15:00:00.894] [INFO]   - ::1 - - "GET /users/captche HTTP/1.1" 200 8958 "http://localhost:8888/index.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.63"
+[2021-03-30T15:00:07.017] [INFO]   - ::1 - - "GET /users/captche HTTP/1.1" 200 7758 "http://localhost:8888/index.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.63"
+[2021-03-30T15:00:08.936] [INFO]   - ::ffff:127.0.0.1 - - "GET /users/captche HTTP/1.1" 200 7043 "http://localhost:8888/index.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.63"
+[2021-03-30T15:00:11.561] [INFO]   - ::1 - - "GET /users/captche HTTP/1.1" 200 7895 "http://localhost:8888/index.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.63"
+[2021-03-30T15:01:08.952] [INFO]   - ::1 - - "GET /users/captche HTTP/1.1" 200 8013 "http://localhost:8888/index.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.63"
+[2021-03-30T15:01:16.305] [ERROR]   - (node:16320) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+[2021-03-30T15:01:16.472] [INFO]   - ::1 - - "POST /users/register HTTP/1.1" 200 35 "http://localhost:8888/index.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.63"
+[2021-03-30T15:01:20.499] [ERROR]   - Error: Failed to lookup view "error" in views directory "D:\AZCGK\Coder\InterFaceNode\views"
+    at Function.render (D:\AZCGK\Coder\InterFaceNode\node_modules\express\lib\application.js:580:17)
+    at ServerResponse.render (D:\AZCGK\Coder\InterFaceNode\node_modules\express\lib\response.js:1008:7)
+    at D:\AZCGK\Coder\InterFaceNode\app.js:109:9
+    at Layer.handle_error (D:\AZCGK\Coder\InterFaceNode\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\AZCGK\Coder\InterFaceNode\node_modules\express\lib\router\index.js:315:13)
+    at D:\AZCGK\Coder\InterFaceNode\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\AZCGK\Coder\InterFaceNode\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\AZCGK\Coder\InterFaceNode\node_modules\express\lib\router\index.js:275:10)
+    at D:\AZCGK\Coder\InterFaceNode\app.js:98:5
+    at Layer.handle [as handle_request] (D:\AZCGK\Coder\InterFaceNode\node_modules\express\lib\router\layer.js:95:5)
+[2021-03-30T15:01:20.502] [INFO]   - ::1 - - "GET /Thirdparty/axios.min.map HTTP/1.1" 404 1273 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.63"
+[2021-03-30T15:01:20.508] [ERROR]   - Error: Failed to lookup view "error" in views directory "D:\AZCGK\Coder\InterFaceNode\views"
+    at Function.render (D:\AZCGK\Coder\InterFaceNode\node_modules\express\lib\application.js:580:17)
+    at ServerResponse.render (D:\AZCGK\Coder\InterFaceNode\node_modules\express\lib\response.js:1008:7)
+    at D:\AZCGK\Coder\InterFaceNode\app.js:109:9
+    at Layer.handle_error (D:\AZCGK\Coder\InterFaceNode\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\AZCGK\Coder\InterFaceNode\node_modules\express\lib\router\index.js:315:13)
+    at D:\AZCGK\Coder\InterFaceNode\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\AZCGK\Coder\InterFaceNode\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\AZCGK\Coder\InterFaceNode\node_modules\express\lib\router\index.js:275:10)
+    at D:\AZCGK\Coder\InterFaceNode\app.js:98:5
+    at Layer.handle [as handle_request] (D:\AZCGK\Coder\InterFaceNode\node_modules\express\lib\router\layer.js:95:5)
+[2021-03-30T15:01:20.512] [INFO]   - ::1 - - "GET /Thirdparty/jquery.min.map HTTP/1.1" 404 1273 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.63"
+[2021-03-30T15:01:24.624] [INFO]   - ::1 - - "POST /users/register HTTP/1.1" 200 42 "http://localhost:8888/index.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.63"
+[2021-03-30T15:01:27.610] [ERROR]   - Error: Failed to lookup view "error" in views directory "D:\AZCGK\Coder\InterFaceNode\views"
+    at Function.render (D:\AZCGK\Coder\InterFaceNode\node_modules\express\lib\application.js:580:17)
+    at ServerResponse.render (D:\AZCGK\Coder\InterFaceNode\node_modules\express\lib\response.js:1008:7)
+    at D:\AZCGK\Coder\InterFaceNode\app.js:109:9
+    at Layer.handle_error (D:\AZCGK\Coder\InterFaceNode\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\AZCGK\Coder\InterFaceNode\node_modules\express\lib\router\index.js:315:13)
+    at D:\AZCGK\Coder\InterFaceNode\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\AZCGK\Coder\InterFaceNode\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\AZCGK\Coder\InterFaceNode\node_modules\express\lib\router\index.js:275:10)
+    at D:\AZCGK\Coder\InterFaceNode\app.js:98:5
+    at Layer.handle [as handle_request] (D:\AZCGK\Coder\InterFaceNode\node_modules\express\lib\router\layer.js:95:5)
+[2021-03-30T15:01:27.615] [INFO]   - ::1 - - "GET /Thirdparty/axios.min.map HTTP/1.1" 404 1273 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.63"
+[2021-03-30T15:01:27.624] [INFO]   - ::1 - - "GET /users/captche HTTP/1.1" 200 6502 "http://localhost:8888/index.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.63"
+[2021-03-30T15:01:27.634] [ERROR]   - Error: Failed to lookup view "error" in views directory "D:\AZCGK\Coder\InterFaceNode\views"
+    at Function.render (D:\AZCGK\Coder\InterFaceNode\node_modules\express\lib\application.js:580:17)
+    at ServerResponse.render (D:\AZCGK\Coder\InterFaceNode\node_modules\express\lib\response.js:1008:7)
+    at D:\AZCGK\Coder\InterFaceNode\app.js:109:9
+    at Layer.handle_error (D:\AZCGK\Coder\InterFaceNode\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\AZCGK\Coder\InterFaceNode\node_modules\express\lib\router\index.js:315:13)
+    at D:\AZCGK\Coder\InterFaceNode\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\AZCGK\Coder\InterFaceNode\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\AZCGK\Coder\InterFaceNode\node_modules\express\lib\router\index.js:275:10)
+    at D:\AZCGK\Coder\InterFaceNode\app.js:98:5
+    at Layer.handle [as handle_request] (D:\AZCGK\Coder\InterFaceNode\node_modules\express\lib\router\layer.js:95:5)
+[2021-03-30T15:01:27.640] [INFO]   - ::1 - - "GET /Thirdparty/jquery.min.map HTTP/1.1" 404 1273 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.63"
+[2021-03-30T15:01:27.846] [ERROR]   - Error: Failed to lookup view "error" in views directory "D:\AZCGK\Coder\InterFaceNode\views"
+    at Function.render (D:\AZCGK\Coder\InterFaceNode\node_modules\express\lib\application.js:580:17)
+    at ServerResponse.render (D:\AZCGK\Coder\InterFaceNode\node_modules\express\lib\response.js:1008:7)
+    at D:\AZCGK\Coder\InterFaceNode\app.js:109:9
+    at Layer.handle_error (D:\AZCGK\Coder\InterFaceNode\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\AZCGK\Coder\InterFaceNode\node_modules\express\lib\router\index.js:315:13)
+    at D:\AZCGK\Coder\InterFaceNode\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\AZCGK\Coder\InterFaceNode\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\AZCGK\Coder\InterFaceNode\node_modules\express\lib\router\index.js:275:10)
+    at D:\AZCGK\Coder\InterFaceNode\app.js:98:5
+    at Layer.handle [as handle_request] (D:\AZCGK\Coder\InterFaceNode\node_modules\express\lib\router\layer.js:95:5)
+[2021-03-30T15:01:27.851] [INFO]   - ::1 - - "GET /Thirdparty/axios.min.map HTTP/1.1" 404 1273 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.63"
+[2021-03-30T15:01:27.861] [INFO]   - ::1 - - "GET /users/captche HTTP/1.1" 200 9389 "http://localhost:8888/index.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.63"
+[2021-03-30T15:01:27.871] [ERROR]   - Error: Failed to lookup view "error" in views directory "D:\AZCGK\Coder\InterFaceNode\views"
+    at Function.render (D:\AZCGK\Coder\InterFaceNode\node_modules\express\lib\application.js:580:17)
+    at ServerResponse.render (D:\AZCGK\Coder\InterFaceNode\node_modules\express\lib\response.js:1008:7)
+    at D:\AZCGK\Coder\InterFaceNode\app.js:109:9
+    at Layer.handle_error (D:\AZCGK\Coder\InterFaceNode\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\AZCGK\Coder\InterFaceNode\node_modules\express\lib\router\index.js:315:13)
+    at D:\AZCGK\Coder\InterFaceNode\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\AZCGK\Coder\InterFaceNode\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\AZCGK\Coder\InterFaceNode\node_modules\express\lib\router\index.js:275:10)
+    at D:\AZCGK\Coder\InterFaceNode\app.js:98:5
+    at Layer.handle [as handle_request] (D:\AZCGK\Coder\InterFaceNode\node_modules\express\lib\router\layer.js:95:5)
+[2021-03-30T15:01:27.875] [INFO]   - ::1 - - "GET /Thirdparty/jquery.min.map HTTP/1.1" 404 1273 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.63"
+[2021-03-30T15:01:31.372] [INFO]   - ::1 - - "POST /users/register HTTP/1.1" 200 48 "http://localhost:8888/index.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.63"
+[2021-03-30T15:01:52.333] [ERROR]   - Error: Failed to lookup view "error" in views directory "D:\AZCGK\Coder\InterFaceNode\views"
+    at Function.render (D:\AZCGK\Coder\InterFaceNode\node_modules\express\lib\application.js:580:17)
+    at ServerResponse.render (D:\AZCGK\Coder\InterFaceNode\node_modules\express\lib\response.js:1008:7)
+    at D:\AZCGK\Coder\InterFaceNode\app.js:109:9
+    at Layer.handle_error (D:\AZCGK\Coder\InterFaceNode\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\AZCGK\Coder\InterFaceNode\node_modules\express\lib\router\index.js:315:13)
+    at D:\AZCGK\Coder\InterFaceNode\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\AZCGK\Coder\InterFaceNode\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\AZCGK\Coder\InterFaceNode\node_modules\express\lib\router\index.js:275:10)
+    at D:\AZCGK\Coder\InterFaceNode\app.js:98:5
+    at Layer.handle [as handle_request] (D:\AZCGK\Coder\InterFaceNode\node_modules\express\lib\router\layer.js:95:5)
+[2021-03-30T15:01:52.338] [INFO]   - ::1 - - "GET /Thirdparty/axios.min.map HTTP/1.1" 404 1273 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.63"
+[2021-03-30T15:01:52.352] [INFO]   - ::1 - - "GET /users/captche HTTP/1.1" 200 7066 "http://localhost:8888/index.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.63"
+[2021-03-30T15:01:52.365] [ERROR]   - Error: Failed to lookup view "error" in views directory "D:\AZCGK\Coder\InterFaceNode\views"
+    at Function.render (D:\AZCGK\Coder\InterFaceNode\node_modules\express\lib\application.js:580:17)
+    at ServerResponse.render (D:\AZCGK\Coder\InterFaceNode\node_modules\express\lib\response.js:1008:7)
+    at D:\AZCGK\Coder\InterFaceNode\app.js:109:9
+    at Layer.handle_error (D:\AZCGK\Coder\InterFaceNode\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\AZCGK\Coder\InterFaceNode\node_modules\express\lib\router\index.js:315:13)
+    at D:\AZCGK\Coder\InterFaceNode\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\AZCGK\Coder\InterFaceNode\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\AZCGK\Coder\InterFaceNode\node_modules\express\lib\router\index.js:275:10)
+    at D:\AZCGK\Coder\InterFaceNode\app.js:98:5
+    at Layer.handle [as handle_request] (D:\AZCGK\Coder\InterFaceNode\node_modules\express\lib\router\layer.js:95:5)
+[2021-03-30T15:01:52.371] [INFO]   - ::1 - - "GET /Thirdparty/jquery.min.map HTTP/1.1" 404 1273 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.63"
+[2021-03-30T15:02:04.157] [INFO]   - ::1 - - "POST /users/register HTTP/1.1" 200 42 "http://localhost:8888/index.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.63"
+[2021-03-30T15:02:06.760] [INFO]   - ::1 - - "POST /users/register HTTP/1.1" 200 35 "http://localhost:8888/index.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.63"
+[2021-03-30T15:02:08.570] [INFO]   - ::1 - - "POST /users/register HTTP/1.1" 200 42 "http://localhost:8888/index.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.63"

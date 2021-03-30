@@ -1,5 +1,5 @@
-var defined = require("../../../tool/defined");
-var defaultValue = require("../../../tool/defaultValue");
+var defined = require("../tool/defined");
+var defaultValue = require("../tool/defaultValue");
 
 
 /***

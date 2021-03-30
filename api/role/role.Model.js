@@ -1,4 +1,4 @@
-const ColumnType = require("../db/schema/column/ColumnType");
+const ColumnType = require("../db/columnType");
 const uuid = require("uuid");
 
 /***

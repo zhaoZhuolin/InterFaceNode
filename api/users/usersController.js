@@ -1,5 +1,5 @@
 const db = require("../db/db");
-const ApiResponse = require("../db/apiResponse");
+const ApiResponse = require("../ApiResponse");
 const appConfig = require("../../appConfig");
 const userInfo = require("./users.Model")
 
@@ -48,7 +48,7 @@ class UserControll {
                 if (!result) {
                     res.json(new ApiResponse("1", "用户不存在"));
                 } else {
-                    res.json(new ApiResponse("1", "用户存在"));
+                    res.json(new ApiResponse("1", "登录成功"));
                 }
             })
         }

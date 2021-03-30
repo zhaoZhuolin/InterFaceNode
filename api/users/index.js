@@ -19,11 +19,6 @@ router.post('/register', UserControll.excuteUserRegister);
  *@desc  用户登录
  */
 router.post('/login', UserControll.excuteUserLogin);
-// router.post('/login', function (req, res, next) {
-//     console.log(req.session.captcha);
-//     res.json({});
-// });
-
 
 /**
  *@api  /users/captche
@@ -37,7 +32,7 @@ router.get("/captche", function (req, res, next) {
 
     req.session['captcha'] = captcha.text;
     res.type("svg");
-    console.log(req.session);
     res.status(200).send(captcha.data);
 })
+
 module.exports = router;

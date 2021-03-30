@@ -1,5 +1,5 @@
 const db = require("../db/db");
-const ApiResponse = require("../db/apiResponse");
+const ApiResponse = require("../ApiResponse");
 const appConfig = require("../../appConfig");
 const roleModel = require("./role.Model");
 
