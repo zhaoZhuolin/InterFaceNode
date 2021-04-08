@@ -90,6 +90,11 @@ class UserControll {
         })
     }
 
+    /**@api /users/register 用户注册 */
+    static getUsers(req, res, next) {
+
+    }
+
 }
 
 
